@@ -1,144 +1,136 @@
-# Learn JavaScript
-
-1. Basics of JavaScript
-
-Topics: variables, data types, console, operators
-
-Task 1: Print your name and age using console.log().
-
-Task 2: Create two variables num1 and num2, and print their sum, difference, product, and quotient.
-
-Task 3: Swap the values of two variables without using a third variable.
-
-
+# 📘 Learn JavaScript
 
 ---
 
-2. Conditional Statements (if/else, switch)
+## 1. **Introduction to JavaScript**
 
-Task 4: Write a program to check if a number is even or odd.
-
-Task 5: Ask the user for their marks and print grade:
-
-A (>=90), B (>=75), C (>=50), F (<50).
-
-
-Task 6: Use switch to build a simple day-of-week detector (input 1 → Monday).
-
-
+1. Print `"Hello World"` in the console.
+2. Create variables `name` and `age` and print: `"My name is ___ and I am ___ years old."`
+3. Store your favorite subject in a variable and print it.
+4. Print the sum of two numbers stored in variables.
+5. Print `"Welcome to JavaScript Class"` five times using `console.log()`.
 
 ---
 
-3. Loops
+## 2. **Conditional Statements**
 
-Task 7: Print numbers from 1 to 10 using a for loop.
+1. Check if a number is even or odd.
+2. Check if a student has passed or failed (pass mark = 40).
+3. Find the greatest of two numbers.
+4. Check if a number is divisible by 5.
+5. Write a program to give grades:
 
-Task 8: Print the multiplication table of 5 using a while loop.
-
-Task 9: Find the sum of numbers from 1 to N using a loop.
-
-
-
----
-
-4. Functions
-
-Task 10: Write a function isPrime(n) that checks if a number is prime.
-
-Task 11: Create a function reverseString(str) that reverses a string.
-
-Task 12: Write a function factorial(n) using recursion.
-
-
+   * 90+ = A, 75–89 = B, 50–74 = C, below 50 = Fail.
 
 ---
 
-5. Arrays
+## 3. **Loops**
 
-Task 13: Print all elements of an array using a loop.
-
-Task 14: Find the largest number in an array.
-
-Task 15: Remove duplicates from an array.
-
-
+1. Print numbers from 1 to 10.
+2. Print the multiplication table of 5.
+3. Print the sum of numbers from 1 to 100.
+4. Print numbers from 10 down to 1.
+5. Print all even numbers between 1 and 20.
 
 ---
 
-6. Objects
+## 4. **Functions**
 
-Task 16: Create an object student with properties: name, age, marks. Print them.
-
-Task 17: Write a function that takes a student object and prints "Pass" if marks >= 50, otherwise "Fail".
-
-Task 18: Create an array of student objects and print the names of students who scored above 80.
-
-
+1. Write a function that prints `"Hello, World!"`.
+2. Write a function that takes two numbers and returns their sum.
+3. Write a function that takes a number and returns whether it is even or odd.
+4. Write a function that finds the factorial of a number.
+5. Write a function that takes a string and prints it in uppercase.
 
 ---
 
-7. DOM Manipulation
+## 5. **Arrays**
 
-Task 19: Change the text of a <p> tag when a button is clicked.
-
-Task 20: Create a counter with two buttons: Increment and Decrement.
-
-Task 21: Build a simple to-do list app where tasks can be added dynamically.
-
-
+1. Create an array of 5 fruits and print the first fruit.
+2. Create an array of 5 numbers and print their sum.
+3. Add a new element to an array of colors and print the updated array.
+4. Create an array of student names and print the length of the array.
+5. Print all elements of an array using a loop.
 
 ---
 
-8. Events
+## 6. **Objects**
 
-Task 22: Change the background color of the page when a button is clicked.
-
-Task 23: Show an alert when the user presses a key.
-
-Task 24: Validate a form (check if name is not empty and email contains “@”).
-
-
+1. Create an object `student` with properties: `name`, `age`, `course`. Print the name.
+2. Create an object `car` with properties: `brand`, `model`, `year`. Print the year.
+3. Create an object `book` with properties: `title`, `author`, `pages`. Print all values.
+4. Create an object `mobile` with properties: `brand`, `price`, `color`. Add a new property `ram`.
+5. Create an object `teacher` with properties: `name`, `subject`, `experience`. Print subject.
 
 ---
 
-9. ES6+ Features
+## 7. **Control Flow**
 
-Task 25: Use template literals to print Hello, <name>! You are <age> years old.
-
-Task 26: Use destructuring to extract values from an array/object.
-
-Task 27: Use the spread operator to merge two arrays.
-
-
+1. Print all odd numbers between 1 and 50.
+2. Print all numbers divisible by 3 between 1 and 30.
+3. Print the first 10 multiples of 4.
+4. Print numbers from 1 to 20 but skip 10 using `continue`.
+5. Print numbers from 1 to 20 and stop the loop when you reach 15 using `break`.
 
 ---
 
-10. Asynchronous JS (setTimeout, Promises, async/await)
+## 8. **Math Functions**
 
-Task 28: Print "Hello" after 2 seconds using setTimeout().
-
-Task 29: Create a promise that resolves after 3 seconds with "Data Loaded".
-
-Task 30: Use async/await to fetch data from a public API (https://jsonplaceholder.typicode.com/posts).
-
-
+1. Generate a random number between 1 and 100.
+2. Find the maximum and minimum of 4 numbers.
+3. Find the absolute value of a negative number.
+4. Calculate the power of 2³ and 5².
+5. Find the floor and ceil values of 7.8.
 
 ---
 
-11. Mini Projects
+## 9. **DOM Manipulation**
 
-Task 31: Digital clock (updates every second).
+1. Create a button on a webpage. When clicked, it should **change the background color** of the page.
 
-Task 32: Number guessing game (computer picks a random number 1–100, user guesses).
+2. Create a `<p>` element with some text. Write JavaScript to **change the text content** when a button is clicked.
 
-Task 33: Simple calculator (add, subtract, multiply, divide).
+3. Create a list of 3 items (`<ul>`). Add a new item to the list using JavaScript.
 
+4. Create an image tag on the page. Write JavaScript to **change the image source** when a button is clicked.
 
+5. Create a form with a text input. When the user types something and clicks a button, display the entered text inside a `<div>`.
+
+6. Write a program to **display the current URL** of the page using JavaScript.
+
+7. Create a button that, when clicked, will **redirect the user** to `"https://www.google.com"`.
+
+8. Write JavaScript to **show an alert box** with the message `"Welcome to my website"`.
+
+9. Use the `navigator` object to **display the browser name and version** in the console.
+
+10. Write a program to move **one step back in browser history** when a button is clicked.
 
 ---
 
-👉 These tasks go from basic → intermediate → practical apps.
-You can do live coding by first asking students to predict output, then typing and running the code.
+## 10. **Events, Fetch & Callbacks**
 
-Would you like me to make this into a ready-to-use teaching plan (day-wise lessons + tasks + expected outputs) so you can directly use it in your classes?
+1. Create a button that changes the background color of the page when clicked (use event listeners).
+
+2. Print the mouse X and Y coordinates whenever the mouse is moved on the page (use the event object).
+
+3. Detect when a user presses a key and print which key was pressed.
+
+4. Prevent the default action of a link (`<a>`) using JavaScript events.
+
+5. Write a program that detects when the user scrolls the page and prints the scroll position.
+
+6. Fetch data from `"https://jsonplaceholder.typicode.com/posts"` and display the first 5 post titles.
+
+7. Fetch JSON data and display it inside an HTML list (`<ul>`).
+
+8. Write a function that accepts a callback and calls it after 2 seconds (simulate asynchronous behavior).
+
+9. Demonstrate “callback hell” by nesting 3 callbacks (e.g., fetch user → fetch posts → fetch comments).
+
+10. Write code to handle a failed fetch request (e.g., wrong URL) and display an error message.
+
+---
+
+
 
